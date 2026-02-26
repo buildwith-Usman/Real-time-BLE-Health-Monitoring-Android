@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <include
+        android:id="@+id/bluetooth_app_bar"
+        layout="@layout/d_braze_app_bar"
+        />
+
+    <include
+        android:id="@+id/bluetooth_connection_layout"
+        layout="@layout/bluetooth_connection_layout"
+        />
+
+    <include
+        android:id="@+id/bluetooth_devices_layout"
+        layout="@layout/bluetooth_devices_layout"
+        app:layout_constraintTop_toBottomOf="@+id/bluetooth_app_bar"
+        android:visibility="gone"
+        />
+
+    <include
+        android:id="@+id/bluetooth_pairing_layout"
+        layout="@layout/bluetooth_pairing_layout"
+        app:layout_constraintTop_toBottomOf="@+id/bluetooth_app_bar"
+        android:visibility="gone"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<!-- res/menu/bottom_nav_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/d_braze_home_icon"
+        android:title="@string/home"
+        />
+    <item
+        android:id="@+id/statsFragment"
+        android:icon="@drawable/d_braze_stats_icon"
+        android:title="@string/stats" />
+
+    <item
+        android:id="@+id/infoFragment"
+        android:icon="@drawable/d_braze_info_icon"
+        android:title="@string/info" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/d_braze_profile_icon"
+        android:title="@string/profile" />
+</menu>

@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DBraze" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+
+        <item name="colorPrimary">@color/d_braze_primary</item>
+        <item name="colorPrimaryDark">@color/d_braze_primary</item>
+        <item name="colorAccent">@color/d_braze_primary</item>
+
+
+        <!-- Customize status bar and navigation bar -->
+        <item name="android:statusBarColor">@color/d_braze_primary</item>
+<!--        <item name="android:navigationBarColor">@color/d_braze_primary</item>-->
+
+        <!-- Fonts for the entire app -->
+        <item name="android:fontFamily">@font/poppins_regular</item>
+
+    </style>
+
+    <style name="Theme.DBraze" parent="Base.Theme.DBraze" />
+
+    <style name="Theme.DBraze..Splash" parent="Theme.DBraze">
+        <!-- Fullscreen theme without action bar -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCornerRadiusBottomEnd">100dp</item>
+        <item name="boxCornerRadiusBottomStart">100dp</item>
+        <item name="boxCornerRadiusTopEnd">100dp</item>
+        <item name="boxCornerRadiusTopStart">100dp</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="hintEnabled">false</item>
+    </style>
+
+    <style name="AlertHorizontalDialogStyle" parent="android:Theme.Holo.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowSoftInputMode">stateAlwaysVisible</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Dbraze.Button.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+</resources>

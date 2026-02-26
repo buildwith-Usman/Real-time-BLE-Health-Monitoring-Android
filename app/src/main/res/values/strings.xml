@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">D-Braze</string>
+
+    <string name="d_braze_splash_text">Vitality Companion</string>
+    <string name="todo">TODO</string>
+
+    <!--    Welcome Screen-->
+    <string name="lets_get_started">Let’s Get Started</string>
+
+    <!--  Log In Screen-->
+    <string name="welcome">Welcome</string>
+    <string name="email">Email</string>
+    <string name="email_example">example@example.com</string>
+    <string name="password">Password</string>
+    <string name="password_hint">*************</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="do_not__have_an_account">Don\'t have an account?</string>
+
+    <!--  Sign Up In Screen-->
+    <string name="personal_information">Personal Information</string>
+    <string name="full_name">Full Name</string>
+    <string name="full_name_hint">enter your name</string>
+    <string name="email_hint">enter your email</string>
+    <string name="gender">Gender</string>
+    <string name="gender_hint">select your gender</string>
+    <string name="height">Height</string>
+    <string name="height_hint">enter your height</string>
+    <string name="weight">Weight</string>
+    <string name="weight_hint">enter your weight</string>
+    <string name="date_of_birth_hint">Date of birth</string>
+    <string name="date_of_birth">dd/mm/yyyy</string>
+    <string name="next">Next</string>
+
+    <!--  Set Password Screen-->
+    <string name="set_password">Set Password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <!--  Forgot Password Screen-->
+    <string name="send">Send</string>
+
+    <!--  Dashboard Screen-->
+    <string name="home">Home</string>
+    <string name="stats">Stats</string>
+    <string name="info">Info</string>
+    <string name="profile">Me</string>
+
+    <!--  Home Screen-->
+    <string name="user_name_txt">Jenifer Lopez</string>
+    <string name="good_morning">Good Morning</string>
+
+    <!--  Bluetooth Screen-->
+    <string name="bluetooth">Bluetooth</string>
+    <string name="turn_on">Turn on</string>
+    <string name="connect_text">Connect\n to any bluetooth device\n nearby you</string>
+
+    <!--  Devices Screen-->
+    <string name="smart_watch">Smart Watch</string>
+
+    <!--  Pairing Screen-->
+    <string name="cancel">Cancel</string>
+
+    <!--  Pairing Screen Dialog-->
+    <string name="done">Done</string>
+
+    <!--  Common-->
+    <string name="welcome_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="cm">(cm)</string>
+    <string name="kg">(kg)</string>
+    <string name="d_braze_battery_level">75</string>
+    <string name="title">Title</string>
+
+
+    <string-array name="gender_items">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+
+</resources>

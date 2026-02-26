@@ -1,0 +1,46 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/connection_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="72dp"
+        android:layout_height="104dp"
+        android:src="@drawable/d_braze_bluetooth_icon"
+        android:tint="@color/d_braze_primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/connect_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="74dp"
+        android:textColor="@color/d_braze_blue"
+        app:layout_constraintStart_toStartOf="@+id/btnTurnOn"
+        app:layout_constraintEnd_toEndOf="@+id/btnTurnOn"
+        app:layout_constraintBottom_toTopOf="@+id/btnTurnOn" />
+
+    <Button
+        android:id="@+id/btnTurnOn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_60dp"
+        android:layout_marginStart="@dimen/margin_40dp"
+        android:layout_marginEnd="@dimen/margin_40dp"
+        android:backgroundTint="@color/d_braze_primary"
+        android:gravity="center"
+        android:text="@string/turn_on"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

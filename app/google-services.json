@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "727054495979",
+    "project_id": "d-braze-83559",
+    "storage_bucket": "d-braze-83559.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727054495979:android:1e882787dcd56682c6ceae",
+        "android_client_info": {
+          "package_name": "com.app.dbraze"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnd-tuRIl1jLwfsqJzMuqJYcR49Iz2wQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

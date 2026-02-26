@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="d_braze_primary">#00A79D</color>
+
+    <color name="d_braze_background">#EFEFEF</color>
+    <color name="d_braze_navy_blue">#1F295E</color>
+    <color name="d_braze_text_color">#009688</color>
+    <color name="d_braze_light_grey">#D4D4D4</color>
+    <color name="d_braze_blue">#1C4070</color>
+    <color name="d_braze_black_shade">#070707</color>
+
+
+</resources>
