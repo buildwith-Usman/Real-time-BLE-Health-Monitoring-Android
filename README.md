@@ -47,9 +47,7 @@ Users authenticate securely, pair their wearable over Bluetooth Low Energy, and 
 
 ### Demo Video
 
-[![Watch Demo](https://img.shields.io/badge/▶%20Watch%20Demo-App%20Walkthrough-red?style=for-the-badge&logo=github)](https://github.com/buildwith-Usman/Real-time-BLE-Health-Monitoring-Android/releases/download/v1.0/demo_video.mp4)
-
-> Click the button above to watch the full app walkthrough — authentication, BLE device pairing, and health dashboard in action.
+<video src="https://github.com/buildwith-Usman/Real-time-BLE-Health-Monitoring-Android/releases/download/v1.0/demo_video.mp4" controls width="100%"></video>
 
 ### Onboarding & Sign Up
 
