@@ -47,9 +47,9 @@ Users authenticate securely, pair their wearable over Bluetooth Low Energy, and 
 
 ### Demo Video
 
-**[▶ Click to Watch App Demo](https://github.com/buildwith-Usman/Real-time-BLE-Health-Monitoring-Android/releases/download/v1.0/demo_video.mp4)**
-
-*Full walkthrough — authentication, BLE device pairing, and health dashboard in action.*
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/54c76635-22f3-4a81-84d5-42961d9e468c" width="360" controls></video>
+</p>
 
 ### Onboarding & Sign Up
 
