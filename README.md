@@ -1,6 +1,6 @@
 <div align="center">
 
-# D-Braze — Vitality Companion
+# Real-Time BLE Health Monitor
 
 ### A production-grade Android health monitoring app with BLE wearable integration
 
@@ -18,7 +18,7 @@
 
 ## What This App Does
 
-**D-Braze** is a health companion Android application that bridges users with their BLE wearable devices (smartwatches, health bands) to track, monitor, and visualize personal health metrics in real time.
+**Real-Time BLE Health Monitor** is a health companion Android application that bridges users with their BLE wearable devices (smartwatches, health bands) to track, monitor, and visualize personal health metrics in real time.
 
 Users authenticate securely, pair their wearable over Bluetooth Low Energy, and access a personalized health dashboard — all within a smooth, Material Design 3 interface.
 
@@ -47,7 +47,9 @@ Users authenticate securely, pair their wearable over Bluetooth Low Energy, and 
 
 ### Demo Video
 
-https://github.com/buildwith-Usman/d-braze/assets/screenshots/demo_video.mp4
+[![Watch Demo](https://img.shields.io/badge/▶%20Watch%20Demo-App%20Walkthrough-red?style=for-the-badge&logo=github)](https://github.com/buildwith-Usman/Real-time-BLE-Health-Monitoring-Android/releases/download/v1.0/demo_video.mp4)
+
+> Click the button above to watch the full app walkthrough — authentication, BLE device pairing, and health dashboard in action.
 
 ### Onboarding & Sign Up
 
@@ -195,8 +197,8 @@ The app enables GATT notifications, subscribes to the battery characteristic, an
 ### Build & Run
 ```bash
 # Clone the repository
-git clone https://github.com/buildwith-Usman/d-braze.git
-cd d-braze
+git clone https://github.com/buildwith-Usman/Real-time-BLE-Health-Monitoring-Android.git
+cd Real-time-BLE-Health-Monitoring-Android
 
 # Open in Android Studio and sync Gradle
 # Or build from CLI:
@@ -262,7 +264,7 @@ Specialized in Kotlin, MVVM architecture, BLE integrations, and Firebase-powered
 
 ---
 
-> **Recruiters & Hiring Managers:** This project demonstrates hands-on experience with the Android stack used at companies like Google, Samsung Health, Fitbit, and Garmin — BLE protocol integration, clean architecture, Firebase ecosystem, and Material Design. Open to Senior Android Engineer roles ($100K–$130K). Let's connect.
+> **Recruiters & Hiring Managers:** This project demonstrates hands-on experience with the Android stack used at companies like Google, Samsung Health, Fitbit, and Garmin — BLE protocol integration, clean architecture, Firebase ecosystem, and Material Design. Open to Senior Android Engineer roles. Let's connect.
 
 ---
 
